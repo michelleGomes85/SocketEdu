@@ -1,0 +1,22 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# JAR file
+*.jar
+
+# IDE-specific files
+/.idea/
+/*.iml
+*.class
+*.jar
+
+# Maven
+target/
+*.war
+
+# Gradle
+.gradle/
+build/
