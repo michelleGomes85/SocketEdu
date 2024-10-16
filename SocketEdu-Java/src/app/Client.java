@@ -51,7 +51,8 @@ public class Client {
             socket.close();
 
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("\nErro ao se conectar ao servidor");
+            System.exit(0);
         }
     }
 }
